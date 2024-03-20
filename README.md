@@ -1,7 +1,10 @@
 ![GitHub License](https://img.shields.io/github/license/EddCarrilho/BMW)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Feddcarrilho.github.io%2FBMW%2F)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Feddcarrilho.github.io%2FBMW%2F)
 
 # BMW
 Este repositório hospeda o projeto do site BMW
+
 Aprendendo HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.
 ## Autor
 Eduardo Sewnarine Carrilho
