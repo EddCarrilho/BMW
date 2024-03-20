@@ -181,6 +181,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -5vh;
 }
 
 #Titulo {
@@ -191,25 +192,14 @@ nav ul {
   margin-bottom: 20px;
 }
 
-.Botao2 {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.3em;
-  font-weight: 900;
-  background-color: #3c3c3c;
-  padding: 10px 40px;
-  border: 2px solid #3c3c3c;
-  border-radius: 25px;
-}
-
 .Botao3 {
+  position: absolute;
   text-decoration: none;
   color: #fff;
   font-size: 1.3em;
   font-weight: 900;
   background-color: #3c3c3c;
   padding: 10px 40px;
-  margin-left: 27vh;
   border: 2px solid #3c3c3c;
   border-radius: 25px;
 }
@@ -276,17 +266,6 @@ nav ul {
 
   .Banner {
     bottom: 5vh;
-  }
-  .Botao3 {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3em;
-    font-weight: 900;
-    background-color: #3c3c3c;
-    padding: 10px 40px;
-    margin-left: -2vh;
-    border: 2px solid #3c3c3c;
-    border-radius: 25px;
   }
 }
 
@@ -408,6 +387,9 @@ footer {
   nav ul {
     margin-top: -6vh;
   }
+  .Botao3 {
+    left: 29vh;
+  }
 }
 
 /* Tablet landscape >>>>>>>>>>>>>>>>> */
@@ -429,6 +411,9 @@ footer {
   }
   .Banner2 {
     margin-top: 20vh;
+  }
+  .Botao3 {
+    left: 56vh;
   }
 }
 
@@ -473,6 +458,9 @@ footer {
   }
   .Banner2 {
     margin-top: 40vh;
+  }
+  .Botao3 {
+    left: 88vh;
   }
 }
 
