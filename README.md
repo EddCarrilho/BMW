@@ -9,6 +9,9 @@ Aprendendo HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo
 [google_fonts](https://fonts.google.com/specimen/Gantari?query=anta)
 ### Imagens
 [pixabay](https://pixabay.com/)
+
 [iconfinder](https://www.iconfinder.com/)
+
 [icon-icons](https://icon-icons.com/)
+
 [optimizilla](https://imagecompressor.com/pt/)
