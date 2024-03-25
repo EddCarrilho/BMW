@@ -75,7 +75,6 @@ body {
   color: #fff;
   font-size: 1.3em;
   font-weight: 900;
-  background-color: #3c3c3c;
   padding: 10px 40px;
   border: 2px solid #3c3c3c;
   border-radius: 25px;
@@ -155,7 +154,6 @@ nav ul {
   color: #fff;
   font-size: 1.3em;
   font-weight: 900;
-  background-color: #3c3c3c;
   padding: 10px 40px;
   border: 2px solid #3c3c3c;
   border-radius: 25px;
@@ -177,7 +175,6 @@ nav ul {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro transparente para legibilidade */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +186,7 @@ nav ul {
   color:#fff;
   font-weight: 200;
   text-shadow: #000 0.05em 0.05em 0.08em;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .Botao3 {
@@ -198,7 +195,6 @@ nav ul {
   color: #fff;
   font-size: 1.3em;
   font-weight: 900;
-  background-color: #3c3c3c;
   padding: 10px 40px;
   border: 2px solid #3c3c3c;
   border-radius: 25px;
@@ -207,7 +203,7 @@ nav ul {
 .barra-invisivel {
   width: 100%;
   height: 100px; /* altura desejada */
-  background-color: transparent; /* torna a barra invisível */
+  background-color: #3c3c3c; /* torna a barra invisível */
 }
 
 #conteudo {
@@ -273,6 +269,7 @@ body {
   background-color: #d1d1d1;
 }
 
+
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
 @media (min-width: 375px) {
@@ -329,6 +326,104 @@ body {
 
   .Banner {
     bottom: 5vh;
+  }
+  
+  .Cardp1 {
+    position: relative;
+    bottom: 10px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp2 {
+    position: relative;
+    bottom: 10px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
+  
+  #Textocard2 {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Cardp3 {
+    position: relative;
+    bottom: 20px;
+    right: 200px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp4 {
+    position: relative;
+    bottom: 20px;
+    right: -150px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard3 {
+    position: absolute;
+    top: 100px;
+    right: 110px;
+  }
+  
+  #Textocard4 {
+    position: absolute;
+    top: 100px;
+    right: 38px;
+  }
+  
+  .Cardsp1 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  
+  .Cardsp2 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  #Titulo {
+    font-size: 1.9em;
+  }
+  #destaqueIntro {
+    margin-top: 25vh;
+    left: 25vh;
   }
 }
 
@@ -524,6 +619,205 @@ footer {
   }
   .Botao3 {
     left: 85.5vh;
+  }
+  .Cardsp1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Cardp1 {
+    position: relative;
+    bottom: 10px;
+    right: 200px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp2 {
+    position: relative;
+    bottom: 10px;
+    right: -150px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
+  
+  #Textocard2 {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Cardp3 {
+    position: relative;
+    bottom: 20px;
+    right: 200px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp4 {
+    position: relative;
+    bottom: 20px;
+    right: -150px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard3 {
+    position: absolute;
+    top: 100px;
+    right: 110px;
+  }
+  
+  #Textocard4 {
+    position: absolute;
+    top: 100px;
+    right: 38px;
+  }
+  
+  .Cardsp1 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  
+  .Cardsp2 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  #Titulo {
+    font-size: 3.5em;
+  }
+  .Cardp1 {
+    position: relative;
+    bottom: 10px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp2 {
+    position: relative;
+    bottom: 10px;
+    right: -150px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
+  
+  #Textocard2 {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Cardp3 {
+    position: relative;
+    bottom: 20px;
+    right: 200px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp4 {
+    position: relative;
+    bottom: 20px;
+    right: -150px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  #Textocard3 {
+    position: absolute;
+    top: 100px;
+    right: 110px;
+  }
+  
+  #Textocard4 {
+    position: absolute;
+    top: 100px;
+    right: 38px;
+  }
+  
+  .Cardsp1 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  
+  .Cardsp2 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  #destaqueIntro {
+    margin-top: 0vh;
+    left: 0vh;
   }
 }
 
