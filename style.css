@@ -179,6 +179,14 @@ nav ul {
   margin-bottom: 50px;
 }
 
+#Titulo2 {
+  font-size: 3.5em;
+  color:#fff;
+  font-weight: 200;
+  text-shadow: #000 0.05em 0.05em 0.08em;
+  margin-bottom: 50px;
+}
+
 .Botao3 {
   position: absolute;
   text-decoration: none;
