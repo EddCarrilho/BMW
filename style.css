@@ -29,12 +29,14 @@ html {
 body {
   font-family: "Inter";
   font-size: 1em;
+  background-color: #d1d1d1;
 }
 
 .Container {
   flex-direction: column;
   margin: 0 auto;
   padding: 50px 15px 50px 15px;
+  
 }
 
 .FlexMenu {
@@ -196,6 +198,9 @@ nav ul {
 
 #conteudo {
   padding: 50px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 #conteudo h1 {
@@ -252,11 +257,6 @@ nav ul {
   background-color: #d1d1d1;
   z-index: 0;
 }
-
-body {
-  background-color: #d1d1d1;
-}
-
 
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
@@ -418,6 +418,11 @@ body {
   .Botao3 {
     position: relative;
     top: 2vh;
+  }
+
+  #conteudo {
+    overflow-x: auto;
+    white-space: nowrap;
   }
 }
 
@@ -682,6 +687,9 @@ footer {
 
   .Pecas {
     height: 100vh;
+  }
+  #conteudo {
+    overflow-x: visible;
   }
 }
 
