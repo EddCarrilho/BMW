@@ -121,43 +121,27 @@ nav ul {
   margin-top: -60px;
 }
 
-
 .Banner2 {
-  position: absolute;
-  color: #fff;
-  display: block;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-#destaque2 {
   position: relative;
   display: flex;
 }
 
-#slogan2 {
-  font-size: 2.5em;
-  text-shadow: #000 0.05em 0.05em 0.05em;
-  font-weight: 100;
-}
-
-#textoDestaque2 {
-  font-size: 1.5em;
-  font-weight: 100;
-  text-shadow: #000 0.05em 0.05em 0.05em;
+#destaque2 {
+  display: flex;
+  background: rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 75px;
 }
 
 .Botao2 {
   position: relative;
-  top: 40px;
   text-decoration: none;
   color: #fff;
   font-size: 1.3em;
   font-weight: 900;
   padding: 10px 40px;
-  border: 2px solid #3c3c3c;
+  background-color: #000;
   border-radius: 25px;
 }
 
@@ -277,6 +261,21 @@ nav ul {
   color: black; /* Cor preta */
 }
 
+#slogan2 {
+    font-size: 3.5em;
+    color:#fff;
+    font-weight: 200;
+    text-shadow: #000 0.05em 0.05em 0.08em;
+}
+
+#textoDestaque2 {
+    font-size: 2em;
+    color:#fff;
+    font-weight: 200;
+    text-shadow: #000 0.05em 0.05em 0.08em;
+    margin-bottom: 50px;
+}
+
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
 @media (min-width: 375px) {
@@ -328,7 +327,10 @@ nav ul {
 
   #destaque2 {
     width: 100%;
-    height: 37.2vh;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .Banner {
@@ -450,6 +452,17 @@ nav ul {
     height: 60px; /* altura desejada */
     background-color: transparent; /* torna a barra invisível */
   }
+  
+  #slogan2 {
+    font-size: 2.5em;
+  }
+
+  #textoDestaque2 {
+    font-size: 1.5em;
+  }
+  .Botao2 {
+    bottom: 4vh;
+  }
 }
 
 #social {
@@ -509,12 +522,6 @@ footer {
   nav ul {
     margin-top: -22vh;
   }
-  #destaque2 {
-    height: 117.8vh;
-  }
-  .Banner2 {
-    margin-top: 25vh;
-  }
   
   .Pecas {
     height: 330vh;
@@ -573,22 +580,6 @@ footer {
     bottom: 202px;
   }
 
-  #slogan2 {
-    font-size: 4.5em;
-    font-family: "Orbitron", sans-serif;
-    font-weight: 400;
-  }
-
-  #textoDestaque2 {
-    font-size: 2em;
-  }
-  #destaque2 {
-    height: 49.7vh;
-  }
-  .Banner2 {
-    margin-top: 13vh;
-  }
-  
   #social {
     margin-right: 0vh;
   }
@@ -643,12 +634,6 @@ footer {
     margin-top: -8vh;
   }
 
-  #destaque2 {
-    height: 88.3vh;
-  }
-  .Banner2 {
-    margin-top: 20vh;
-  }
   .Cardsp1 {
     position: relative;
     width: 100%;
@@ -753,10 +738,12 @@ footer {
     margin-top: -9.805vh;
   }
   #destaque2 {
-    height: 129.3vh;
-  }
-  .Banner2 {
-    margin-top: 40vh;
+    height: 40vh;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
   }
   
   .Cardp1 {
@@ -817,6 +804,11 @@ footer {
   .barra-invisivelc1 {
     margin-bottom: 0px; /* altura desejada */
   }
+
+  .Cartaos {
+    margin-top: 0vh;
+  }
+
 }
 
 /* PCs ou notebooks Tv Full HD + >>>>>>>>>>>>>>>>> */
