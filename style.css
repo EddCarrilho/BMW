@@ -79,6 +79,16 @@ body {
   font-weight: 900;
   padding: 10px 40px;
   border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.Botao4 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
   border-radius: 25px;
   z-index: -1;
 }
@@ -141,7 +151,7 @@ nav ul {
   font-size: 1.3em;
   font-weight: 900;
   padding: 10px 40px;
-  background-color: #000;
+  background-color: #3c3c3c;
   border-radius: 25px;
 }
 
@@ -179,6 +189,7 @@ nav ul {
   font-weight: 900;
   padding: 10px 40px;
   border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
   border-radius: 25px;
 }
 
@@ -266,6 +277,7 @@ nav ul {
     color:#fff;
     font-weight: 200;
     text-shadow: #000 0.05em 0.05em 0.08em;
+    padding: 5px;
 }
 
 #textoDestaque2 {
@@ -274,6 +286,7 @@ nav ul {
     font-weight: 200;
     text-shadow: #000 0.05em 0.05em 0.08em;
     margin-bottom: 50px;
+    padding: 10px;
 }
 
 #imgEdu img {
@@ -367,7 +380,19 @@ nav ul {
 
   .Cardp2 {
     position: relative;
-    bottom: 10px;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  .Cardp5 {
+    position: relative;
+    bottom: 0px;
     margin-top: 25px;
     height: 253px;
     width: 338px;
@@ -432,7 +457,7 @@ nav ul {
   .Pecas{
     position: relative;
     width: 100%;
-    height: 192vh;
+    height: 238vh;
     background-image: url('./img/pxfuel.jpg');
     background-size: cover;
     background-position: center;
@@ -497,6 +522,17 @@ nav ul {
   #Tit {
     top: 50px;
   }
+
+  .Cardsp1 {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #conteudo .Botao4 {
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 10px 100px;
+  }
 }
 
 #social {
@@ -558,7 +594,7 @@ footer {
   }
   
   .Pecas {
-    height: 330vh;
+    height: 420vh;
   }
 
   .Card {
@@ -577,7 +613,7 @@ footer {
     font-size: 0.8em;
   }
 
-  #conteudo .Botao {
+  #conteudo .Botao4 {
   font-size: 0.8em;
   font-weight: 900;
   padding: 10px 40px;
@@ -647,7 +683,7 @@ footer {
     margin-top: -6vh;
   }
   .Pecas {
-    height: 123vh;
+    height: 155vh;
   }
   .Card {
     width: 338px;
@@ -691,6 +727,11 @@ footer {
   .Flex3 {
     margin-top: 22vh;
   }
+  #conteudo .Botao4 {
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 10px 100px;
+  }
 }
 
 /* Tablet landscape >>>>>>>>>>>>>>>>> */
@@ -707,46 +748,12 @@ footer {
     margin-top: -8vh;
   }
 
-  .Cardsp1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Cardp1 {
-    right: 100px;
-  }
-  
-  .Cardp2 {
-    left: 100px;
-  }
-  
-  .Cardsp2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Cardp3 {
-    right: 100px;
-  }
-  
-  .Cardp4 {
-    right: -100px;
-  }
-
   #destaqueIntro {
     margin-top: 0vh;
     left: 0vh;
   }
   .Pecas {
-    height: 100vh;
+    height: 205vh;
   }
   .Card {
     width: 338px;
@@ -835,21 +842,29 @@ footer {
     margin-top: 10vh;
   }
   
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
   .Cardp1 {
-    right: 150px;
+    right: 25px;
   }
   
   .Cardp2 {
-    left: 150px;
+    left: 375px;
     bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 335px;
   }
   
   .Cardp3 {
-    right: 150px;
+    right: 25px;
   }
   
   .Cardp4 {
-    right: -150px;
+    left: 25px;
     bottom: 2.5vh;
   }
   
@@ -907,7 +922,7 @@ footer {
   }
   .banner1{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-image: url('./img/pxfuel.jpg');
     background-size: cover;
     background-position: center;
@@ -915,6 +930,28 @@ footer {
     overflow: hidden;
     position: absolute;
     margin-top: -9.8vh;
+  }
+
+  #Tit {
+    top: 45px;
+  }
+  .Cardsp1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
