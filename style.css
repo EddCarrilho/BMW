@@ -276,6 +276,11 @@ nav ul {
     margin-bottom: 50px;
 }
 
+#imgEdu img {
+  border-radius: 100vh;
+  width: 75%;
+}
+
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
 @media (min-width: 375px) {
@@ -329,7 +334,6 @@ nav ul {
     width: 100%;
     align-items: center;
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
@@ -425,7 +429,7 @@ nav ul {
     position: relative;
     text-align: center;
   }
-  .Pecas {
+  .Pecas{
     position: relative;
     width: 100%;
     height: 192vh;
@@ -434,6 +438,23 @@ nav ul {
     background-position: center;
     background-attachment: fixed;
     overflow: hidden;
+  }
+
+  .banner1{
+    width: 100%;
+    background-image: url('./img/pxfuel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: absolute;
+  }
+  #Tit {
+    position: relative;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
   }
   
   .Botao3 {
@@ -462,6 +483,19 @@ nav ul {
   }
   .Botao2 {
     bottom: 4vh;
+  }
+  .Flex3 {
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30vh;
+  }
+  .banner1 {
+    height: 35vh;
+    margin-top: 0vh;
+  }
+  #Tit {
+    top: 50px;
   }
 }
 
@@ -552,6 +586,27 @@ footer {
   .barra-invisivelc1 {
     margin-bottom: -70px; /* altura desejada */
   }
+  
+  .Flex3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+
+  #imgEdu img {
+    margin-right: 80vh;
+  }
+  .banner1 {
+    height: 65vh;
+  }
+
+  #Tit {
+    top: 50px;
+  }
+  .Flex3 {
+    margin-top: 55vh;
+  }
 }
 
 /* Tablet portrait >>>>>>>>>>>>>>>>> */
@@ -617,6 +672,24 @@ footer {
   }
   .barra-invisivelc1 {
     margin-bottom: 0px; /* altura desejada */
+  }
+  .Flex3 {
+    display: flex;
+    align-items: center;
+  }
+
+  #imgEdu img {
+    margin-right: 0vh;
+  }
+  .banner1 {
+    height: 25vh;
+  }
+
+  #Tit {
+    top: 65px;
+  }
+  .Flex3 {
+    margin-top: 22vh;
   }
 }
 
@@ -698,6 +771,22 @@ footer {
   }
   .barra-invisivelc1 {
     margin-bottom: 0px; /* altura desejada */
+  }
+  .Flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+  .banner1 {
+    height: 30vh;
+  }
+  #Tit {
+    top: 50px;
+  }
+  .Flex3 {
+    margin-top: 25vh;
   }
 }
 
@@ -809,6 +898,24 @@ footer {
     margin-top: 0vh;
   }
 
+  .Flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+  .banner1{
+    width: 100%;
+    height: 40vh;
+    background-image: url('./img/pxfuel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -9.8vh;
+  }
 }
 
 /* PCs ou notebooks Tv Full HD + >>>>>>>>>>>>>>>>> */
