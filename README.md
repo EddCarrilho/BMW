@@ -4,6 +4,11 @@
 
 # BMW
 Este repositório hospeda o projeto do site BMW
+# Link & QrCode
+
+https://eddcarrilho.github.io/BMW/
+
+![qrcode_eddcarrilho github io](https://github.com/EddCarrilho/BMW/assets/129779868/d3df2010-a725-45d2-ab97-cac0c9418c93)
 
 Aprendendo HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.
 ## Autor
