@@ -338,7 +338,7 @@ nav ul {
   
   #destaque video {
     width: 100%;
-    height: 56vh;
+    height: 77vh;
     object-fit: cover;
     position: relative; 
   }
@@ -351,7 +351,7 @@ nav ul {
   }
 
   .Banner {
-    bottom: 5vh;
+    bottom: 15vh;
   }
   
   #Textocard {
@@ -492,6 +492,16 @@ nav ul {
     flex-wrap: nowrap; /* Impede que os cartões quebrem para uma nova linha */
     justify-content: flex-start;
     margin-left: -2vh;
+    animation-play-state: running;
+    animation: mover-margin 1.5s infinite alternate;
+  }
+  @keyframes mover-margin {
+    0% {
+        margin-left: -2vh;
+    }
+    100% {
+        margin-left: -10vh;
+    }
   }
   .barra-invisivelc1 {
     width: 100%;
@@ -662,13 +672,13 @@ footer {
   }
 
   #destaque video {
-    height: 75vh;
+    height: 85vh;
     object-fit: cover;
     position: relative; 
   }
 
   .Banner {
-    bottom: 202px;
+    bottom: 230px;
   }
 
   #social {
@@ -682,8 +692,12 @@ footer {
   nav ul {
     margin-top: -6vh;
   }
+  #destaqueIntro {
+    margin-top: -12vh;
+    left: 0vh;
+  }
   .Pecas {
-    height: 155vh;
+    height: 100vh;
   }
   .Card {
     width: 338px;
@@ -732,6 +746,54 @@ footer {
     font-weight: 900;
     padding: 10px 100px;
   }
+  .Cardsp1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
+  .Cardp1 {
+    right: -145px;
+  }
+  
+  .Cardp2 {
+    left: 195px;
+    bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 345px;
+    top: 530px;
+  }
+  
+  .Cardp3 {
+    right: 25px;
+    bottom: 2.5vh;
+  }
+  
+  .Cardp4 {
+    left: 25px;
+    bottom: 2.5vh;
+  }
+  .Botao3 {
+    top: 26vh;
+  }
 }
 
 /* Tablet landscape >>>>>>>>>>>>>>>>> */
@@ -749,11 +811,11 @@ footer {
   }
 
   #destaqueIntro {
-    margin-top: 0vh;
+    margin-top: -20vh;
     left: 0vh;
   }
   .Pecas {
-    height: 205vh;
+    height: 135vh;
   }
   .Card {
     width: 338px;
@@ -795,6 +857,37 @@ footer {
   .Flex3 {
     margin-top: 25vh;
   }
+
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
+  .Cardp1 {
+    right: -145px;
+  }
+  
+  .Cardp2 {
+    left: 195px;
+    bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 345px;
+    top: 550px;
+  }
+  
+  .Cardp3 {
+    right: 25px;
+    bottom: 2.5vh;
+  }
+  
+  .Cardp4 {
+    left: 25px;
+    bottom: 2.5vh;
+  }
+  .Botao3 {
+    top: 38vh;
+  }
 }
 
 /* PCs ou notebooks HD >>>>>>>>>>>>>>>>> */
@@ -823,12 +916,12 @@ footer {
   }
 
   .Banner {
-    bottom: 180px;
+    bottom: 230px;
   }
 
   #destaque video {
     width: 100%;
-    height: 80vh;
+    height: 91.5vh;
     object-fit: cover;
     position: relative; 
     margin-top: -9.805vh;
@@ -857,6 +950,7 @@ footer {
 
   .Cardp5 {
     right: 335px;
+    top: 0px;
   }
   
   .Cardp3 {
@@ -884,6 +978,7 @@ footer {
   #conteudo {
     overflow-x: visible;
     margin-left: -7vh;
+    animation-play-state: paused;
   }
   .Card {
     width: 338px;
@@ -936,23 +1031,9 @@ footer {
   #Tit {
     top: 45px;
   }
-  .Cardsp1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .Cardsp2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .Botao3 {
+    top: 2vh;
   }
 }
 
