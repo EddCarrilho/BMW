@@ -234,6 +234,28 @@ nav ul {
   text-align: center;
 }
 
+.Cardctd {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  width: 338px;
+  height: 180px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#txtctd .Botao4 {
+  font-size: 1.3em;
+  margin-top: 25px;
+}
+
+#txtctd {
+  font-size: 2em;
+  margin-top: 25px;
+}
+
 .Card img {
   border-radius: 25px 25px 0px 0px;
 }
@@ -294,6 +316,9 @@ nav ul {
   width: 75%;
 }
 
+.conteudo {
+  z-index: -1;
+}
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
 @media (min-width: 375px) {
@@ -514,6 +539,12 @@ nav ul {
     height: 60px; /* altura desejada */
     background-color: transparent; /* torna a barra invisível */
   }
+
+  .barra-invisivelc2 {
+    width: 100%;
+    height: 30px; /* altura desejada */
+    background-color: transparent; /* torna a barra invisível */
+  }
   
   #slogan2 {
     font-size: 2.5em;
@@ -548,6 +579,13 @@ nav ul {
     font-size: 1.3em;
     font-weight: 900;
     padding: 10px 100px;
+  }
+  #destaqueCard .Botao {
+    position: relative;
+    left: 12.5vh;
+    bottom: 17vh;
+    z-index: 1;
+    color:#fff;
   }
 }
 
@@ -658,6 +696,11 @@ footer {
   }
   .Flex3 {
     margin-top: 55vh;
+  }
+  #destaqueCard .Botao {
+    left: 68vh;
+    bottom: 32vh;
+    font-size: 0.8em;
   }
 }
 
@@ -800,6 +843,12 @@ footer {
   .Botao3 {
     top: 26vh;
   }
+
+  #destaqueCard .Botao {
+    left: 27vh;
+    bottom: 11vh;
+    font-size: 1.3em;
+  }
 }
 
 /* Tablet landscape >>>>>>>>>>>>>>>>> */
@@ -894,6 +943,10 @@ footer {
   .Botao3 {
     top: 38vh;
   }
+  #destaqueCard .Botao {
+    left: 53.5vh;
+    bottom: 15vh;
+  }
 }
 
 /* PCs ou notebooks HD >>>>>>>>>>>>>>>>> */
@@ -984,7 +1037,7 @@ footer {
   #conteudo {
     overflow-x: visible;
     margin-left: -7vh;
-    animation-play-state: paused;
+    animation: none;
   }
   .Card {
     width: 338px;
@@ -1040,6 +1093,9 @@ footer {
 
   .Botao3 {
     top: 2vh;
+  }
+  #destaqueCard .Botao {
+    left: 85.35vh;
   }
 }
 
