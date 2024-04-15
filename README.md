@@ -16,6 +16,7 @@ Eduardo Sewnarine Carrilho
 ## Links utilizados
 ### Site Referência
 [BMW](https://www.bmw.com.br/pt/index.html)
+[Raspberry Pi](https://www.raspberrypi.com/)
 ### Wireframe
 [draw](https://draw.io/)
 ### Tipografia
