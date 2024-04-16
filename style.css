@@ -84,6 +84,17 @@ body {
   z-index: -1;
 }
 
+.Botao5 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 10px 40px;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+}
+
 .Botao4 {
   text-decoration: none;
   color: #000;
@@ -155,6 +166,15 @@ nav ul {
   border-radius: 25px;
 }
 
+#destaqueIntro3 {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+}
 
 #destaqueIntro {
   position: relative;
@@ -414,6 +434,37 @@ nav ul {
   position: relative;
   margin-left: 15px;
 }
+.Cardctd12,
+.Cardctd8,
+.Cardctd4 {
+  font-weight: bold; 
+  color: #000;
+  text-decoration: none;
+}
+.Cardctd11,
+.Cardctd10,
+.Cardctd7,
+.Cardctd9,
+.Cardctd6,
+.Cardctd5 {
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+}
+
+.Cardctd12::after,
+.Cardctd8::after,
+.Cardctd4::after {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -5px; 
+  width: 100%;
+  height: 3px;
+  background-color: gray; 
+  display: block; 
+}
+
 /* Smartphone portrait >>>>>>>>>>>>>>>>> */
 /********* Cabeçalho *********/
 @media (min-width: 375px) {
@@ -551,6 +602,24 @@ nav ul {
     border: 1px solid #d1d1d1;
     border-radius: 25px;
   }
+
+  .Cardp1-1 {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
   
   #Textocard3 {
     position: absolute;
@@ -562,6 +631,12 @@ nav ul {
     position: absolute;
     top: 100px;
     right: 38px;
+  }
+  #Textocard5 {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+    z-index: 1;
   }
   
   .Cardsp1 img {
@@ -712,6 +787,38 @@ nav ul {
     width: 332px;
     height: 180px;
   }
+  .Texto2 {
+    position: relative;
+    margin-top: 40vh;
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+  }
+  .Flex4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .Flex5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+  }
+  .Cardctd12,
+  .Cardctd11,
+  .Cardctd10,
+  .Cardctd9,
+  .Cardctd8,
+  .Cardctd7,
+  .Cardctd6,
+  .Cardctd5,
+  .Cardctd4 {
+    position: relative;
+    margin-left: 13vh;
+  }
+  
 }
 
 #social {
@@ -839,6 +946,10 @@ footer {
     font-size: 18px;
     width: 75%;
   }
+  .Texto2 {
+    margin-top: 70vh;
+  }
+
   .Cardctd {
     display: flex;
     width: 338px;
@@ -1003,6 +1114,10 @@ footer {
   }
   .Flex2 {
     margin-top: 25vh;
+  }
+  .Texto2 {
+    margin-top: 30vh;
+    text-align: start;
   }
 }
 
@@ -1268,6 +1383,11 @@ footer {
     display: flex;
     justify-content: start;
     text-align: start;
+  }
+  .Flex4 {
+    display: flex;
+    text-align: start;
+    align-items: start;
   }
 }
 
