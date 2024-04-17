@@ -867,17 +867,23 @@ nav ul {
     bottom: 10vh;
   }
   .TextoNT p {
-    display: flex;
-    flex-direction: column;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 350px;
     white-space: normal;
     display: inline-block;
   }
-
-  .TextoNT2 p {
+  .TextoNT {
     display: flex;
     flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .TextoNT2 {
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .TextoNT2 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 400px;
     white-space: normal;
