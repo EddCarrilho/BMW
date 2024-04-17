@@ -1,7 +1,7 @@
 ![GitHub License](https://img.shields.io/github/license/EddCarrilho/BMW)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Feddcarrilho.github.io%2FBMW%2F)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Feddcarrilho.github.io%2FBMW%2F)
-![CSS3 Validation](http://jigsaw.w3.org/css-validator/check/referer)
+![CSS3 Validation]([http://jigsaw.w3.org/css-validator/check/referer](http://jigsaw.w3.org/css-validator/validator$link))
 
 # BMW
 Este repositório hospeda o projeto do site BMW
