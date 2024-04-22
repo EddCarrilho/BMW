@@ -1,0 +1,1601 @@
+/**
+ Folha de estilo do site BMW.com
+ @author Eduardo Carrilho
+ */
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&display=swap');
+
+/* variáveis globais*/
+:root {
+  --transparentLayout: rgba(22, 18, 18, 0.9);
+  --cinzaLayout: #3c3c3c;
+  --brancoLayout: #ffffff;
+  --cinzaLayout2: #3c3c3c;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter";
+  font-size: 1em;
+  background-color: #d1d1d1;
+}
+
+.Container {
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 50px 15px 50px 15px;
+  
+}
+
+.FlexMenu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  z-index: 1;
+}
+
+.Flex {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* Destaque */
+
+.Banner {
+  position: absolute;
+  color: #fff;
+  display: block;
+  bottom: 110px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Botao {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 10px 40px;
+  border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.Botao5 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 10px 40px;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+}
+.Botao41 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+  font-weight: 900;
+}
+.Botao42 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+  font-weight: 900;
+}
+.Botao43 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+  font-weight: 900;
+}
+.Botao44 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+  font-weight: 900;
+}
+.Botao4 {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #3c3c3c;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+
+#slogan {
+  font-size: 2.5em;
+  text-shadow: #000 0.05em 0.05em 0.05em;
+  font-weight: 100;
+}
+
+#textoDestaque {
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 190px;
+  margin: 15px 0px 50px 0px;
+  text-shadow: #000 0.05em 0.05em 0.05em;
+}
+
+#topo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color:  var(--transparentLayout);
+}
+#logo img {
+  width: 120px;
+  height: 120px;
+}
+
+header {
+  background-color: var(--cinzaLayout2);
+}
+
+#destaque {
+  position: relative;
+  display: flex;
+}
+
+nav ul {
+  margin-top: -60px;
+}
+
+.Banner2 {
+  position: relative;
+  display: flex;
+}
+
+#destaque2 {
+  display: flex;
+  background: rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.Botao2 {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 10px 40px;
+  background-color: #3c3c3c;
+  border-radius: 25px;
+}
+
+#destaqueIntro3 {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+
+#destaqueIntro {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Titulo {
+  font-size: 3.5em;
+  color:#fff;
+  font-weight: 200;
+  text-shadow: #000 0.05em 0.05em 0.08em;
+  margin-bottom: 50px;
+}
+
+#Titulo2 {
+  font-size: 3.5em;
+  color:#fff;
+  font-weight: 200;
+  text-shadow: #000 0.05em 0.05em 0.08em;
+  margin-bottom: 50px;
+}
+
+.Botao3 {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 900;
+  padding: 10px 40px;
+  border: 2px solid #3c3c3c;
+  background-color: #3c3c3c;
+  border-radius: 25px;
+}
+
+.barra-invisivel {
+  width: 100%;
+  height: 100px; /* altura desejada */
+  background-color: #3c3c3c; /* torna a barra invisível */
+}
+
+#conteudo {
+  padding: 50px 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#conteudo h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#todos {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#todos a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+/* Cartões */
+.Card {
+  margin-top: 25px;
+  width: 338px;
+  height: 520px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.Cardctd {
+  display: flex;
+  justify-content: center;
+  width: 338px;
+  height: 180px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  flex-direction: column;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+.Cardctd2 {
+  display: flex;
+  justify-content: center;
+  width: 338px;
+  height: 180px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  flex-direction: column;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+.Cardctd3 {
+  display: flex;
+  justify-content: center;
+  width: 338px;
+  height: 180px;
+  background-color: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 25px;
+  flex-direction: column;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+#Paragrafo {
+  font-weight: bold;
+}
+#txtctd .Botao4 {
+  font-size: 1.3em;
+  margin-top: 25px;
+}
+
+#txtctd {
+  font-size: 1.15em;
+  margin-top: 25px;
+}
+
+.Card img {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3 {
+  margin-top: 15px;
+}
+
+.Card p {
+  text-align: left;
+  color: #434343;
+  padding: 10px 30px 50px 30px;
+}
+
+.Card a {
+  padding: 10px 100px;
+}
+
+.barra-invisivelnh {
+  position: absolute;
+  margin-top: -9.8vh;
+  width: 150%; 
+  height: 79px;  
+  background-color: #d1d1d1;
+  z-index: 0;
+}
+
+#destcard {
+  position: relative;
+  margin-bottom: -110px;
+  display: flex;
+  justify-content: center;
+}
+
+.Botao[href="Modelos.html"] {
+  color: black; /* Cor preta */
+}
+
+#slogan2 {
+    font-size: 3.5em;
+    color:#fff;
+    font-weight: 200;
+    text-shadow: #000 0.05em 0.05em 0.08em;
+    padding: 5px;
+}
+
+#textoDestaque2 {
+    font-size: 2em;
+    color:#fff;
+    font-weight: 200;
+    text-shadow: #000 0.05em 0.05em 0.08em;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+#imgEdu img {
+  border-radius: 100vh;
+  width: 75%;
+}
+
+.conteudo {
+  z-index: -1;
+}
+
+.selecionar {
+  display: flex;
+  justify-content: center;
+}
+
+.Pecas2 {
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: flex-start; 
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.Pecas2 a {
+  font-weight: bold;
+  position: relative;
+  color: black;
+  font-size: 1.3em;
+  text-decoration: none;
+  display: inline-block; 
+
+}
+.Pecas2 a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: calc(100% + 10px);
+  height: 3px;
+  background-color: gray;
+  display: block;
+}
+
+.Pecas2 {
+  margin-bottom: 10vh;
+}
+
+.Pecas2 a {
+  font-weight: bold;
+  position: relative;
+  color: black;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-bottom: 10vh;
+}
+.Pecas2 a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  width: calc(100% + 10px);
+  height: 3px;
+  background-color: gray;
+  display: block;
+}
+
+#ajust {
+  position: relative;
+  margin-left: 15px;
+}
+.Cardctd12,
+.Cardctd8,
+.Cardctd4 {
+  font-weight: bold; 
+  color: #000;
+  text-decoration: none;
+}
+.Cardctd11,
+.Cardctd10,
+.Cardctd7,
+.Cardctd9,
+.Cardctd6,
+.Cardctd5 {
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+}
+
+.Cardctd12::after,
+.Cardctd8::after,
+.Cardctd4::after {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -5px; 
+  width: 100%;
+  height: 3px;
+  background-color: gray; 
+  display: block; 
+}
+
+#destaqueCard2 {
+  position: relative;
+  bottom: 20vh;
+}
+
+/* Smartphone portrait >>>>>>>>>>>>>>>>> */
+/********* Cabeçalho *********/
+@media (min-width: 375px) {
+  #check {
+    display: none;
+  }
+  
+  #check:checked ~ ul {
+    right: 0;
+  }
+
+  label {
+    font-size: 3em;
+    right: 25px;
+    position: fixed;
+    top: 40px;
+    color: rgba(0, 0, 0, 0.5);
+  } 
+  
+  
+  nav ul {
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    top: 213px;
+    width: 100%;
+    right: -100%;
+    transition: all 0.5s;
+    background-color: var(--transparentLayout);
+  }
+  
+  nav ul li {
+    padding: 20px;
+    border-bottom: 0.5px solid #a9a9a9;
+    text-align: right;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--brancoLayout)
+  }
+  
+  #destaque video {
+    width: 100%;
+    height: 77vh;
+    object-fit: cover;
+    position: relative; 
+  }
+
+  #destaque2 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Banner {
+    bottom: 15vh;
+  }
+  
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
+  
+  #Textocard2 {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+  }
+
+  #Textocard5 {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+  }
+  
+  .Cardp1 {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  .Cardp2 {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  .Cardp5 {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp3 {
+    position: relative;
+    bottom: 30px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+  
+  .Cardp4 {
+    position: relative;
+    bottom: 30px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  .Cardp1-1 {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    height: 253px;
+    width: 338px;
+    color: #d1d1d1;
+    background-color: #3c3c3c;
+    border: 1px solid #d1d1d1;
+    border-radius: 25px;
+  }
+
+  #Textocard {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+  }
+  
+  #Textocard3 {
+    position: absolute;
+    top: 100px;
+    right: 110px;
+  }
+  
+  #Textocard4 {
+    position: absolute;
+    top: 100px;
+    right: 38px;
+  }
+  #Textocard5 {
+    position: absolute;
+    top: 100px;
+    right: 118px;
+    z-index: 1;
+  }
+  
+  .Cardsp1 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  
+  .Cardsp2 img {
+    border-radius: 25px 25px 25px 25px;
+  }
+  #Titulo {
+    position: relative;
+    font-size: 1.9em;
+    top: 20px;
+  }
+  #destaqueIntro {
+    position: relative;
+    text-align: center;
+  }
+  .Pecas{
+    position: relative;
+    width: 100%;
+    height: 238vh;
+    background-image: url('./img/pxfuel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+  .banner1{
+    width: 100%;
+    background-image: url('./img/pxfuel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: absolute;
+  }
+  #Tit {
+    position: relative;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Botao3 {
+    position: relative;
+    top: 2vh;
+  }
+
+  #conteudo {
+    overflow-x: auto;
+    flex-wrap: nowrap; /* Impede que os cartões quebrem para uma nova linha */
+    justify-content: flex-start;
+    margin-left: -2vh;
+    animation-play-state: running;
+    animation: mover-margin 1.5s infinite alternate;
+  }
+  @keyframes mover-margin {
+    0% {
+        margin-left: -2vh;
+    }
+    100% {
+        margin-left: -10vh;
+    }
+  }
+  .barra-invisivelc1 {
+    width: 100%;
+    height: 60px; /* altura desejada */
+    background-color: transparent; /* torna a barra invisível */
+  }
+
+  .barra-invisivelc2 {
+    width: 100%;
+    height: 30px; /* altura desejada */
+    background-color: transparent; /* torna a barra invisível */
+  }
+  
+  #slogan2 {
+    font-size: 2.5em;
+  }
+
+  #textoDestaque2 {
+    font-size: 1.5em;
+  }
+  .Botao2 {
+    bottom: 4vh;
+  }
+  .Flex3 {
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30vh;
+  }
+  .banner1 {
+    height: 35vh;
+    margin-top: 0vh;
+  }
+  #Tit {
+    top: 50px;
+    font-size: 1.8em;
+  }
+
+  .Cardsp1 {
+    position: relative;
+    padding-bottom: 30px;
+  }
+
+  #conteudo .Botao4 {
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 10px 100px;
+  }
+  #destaqueCard .Botao {
+    position: relative;
+    left: 12.5vh;
+    bottom: 17vh;
+    z-index: 1;
+    color:#fff;
+  }
+  .Flex2 {
+    display: flex;
+    margin-top: 40vh;
+  }
+
+  #Paragrafo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .Texto {
+    font-size: 14px;
+    width: 75%;
+  }
+  .Cardctd {
+    display: flex;
+    width: 332px;
+    height: 180px;
+  }
+  .Cardctd2 {
+    display: flex;
+    width: 332px;
+    height: 180px;
+  }
+  .Cardctd3 {
+    display: flex;
+    width: 332px;
+    height: 180px;
+  }
+  .Texto2 {
+    position: relative;
+    margin-top: 40vh;
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+  }
+  .Flex4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  .Flex5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    margin-right: 9vh;
+    font-size: 0.7em;
+    text-align: center;
+  }
+  .Cardctd12,
+  .Cardctd11,
+  .Cardctd10,
+  .Cardctd9,
+  .Cardctd8,
+  .Cardctd7,
+  .Cardctd6,
+  .Cardctd5,
+  .Cardctd4 {
+    position: relative;
+    margin-left: 13vh;
+  }
+  #destaqueCard2 {
+    position: relative;
+    bottom: 10vh;
+  }
+  .TextoNT p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 350px;
+    white-space: normal;
+    display: inline-block;
+  }
+  .TextoNT {
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .TextoNT2 {
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .TextoNT2 p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 400px;
+    white-space: normal;
+    display: inline-block;
+  }
+  
+  .pagconteudo {
+    position: relative;
+    margin-top: 35vh;
+  }
+}
+
+#social {
+  margin-bottom: 15px;
+}
+
+#copyright {
+  text-align: center;
+}
+
+ /********* Rodapé *********/
+footer {
+  background-color: var(--cinzaLayout);
+  color: var(--brancoLayout);
+}
+@media (min-width: 576px) {
+  .Flex {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #destaque video {
+    width: 100%;
+    height: 56vh;
+    object-fit: cover;
+    position: relative; 
+  }
+
+  .Banner {
+    bottom: 110px;
+  }
+
+}
+
+/* Smartphone landscape >>>>>>>>>>>>>>>>> */
+@media (min-width: 667px) {
+  .Container {
+    max-width: 540px;
+  }
+  #destaque video {
+    height: 100vh;
+    object-fit: cover;
+    position: relative; 
+  }
+
+  .Banner {
+    bottom: 35px;
+  }
+  #social {
+    margin-right: -10vh;
+  }
+
+  #copyright {
+    margin-left: -10vh;
+  }
+  nav ul {
+    margin-top: -22vh;
+  }
+  
+  .Pecas {
+    height: 420vh;
+  }
+
+  .Card {
+    width: 180px;
+    height: 300px;
+  }
+  .Card img {
+    width: 180px;
+  }
+
+  #conteudo h2 {
+    font-size: 1em;
+  }
+
+  #conteudo p {
+    font-size: 0.8em;
+  }
+
+  #conteudo .Botao4 {
+  font-size: 0.8em;
+  font-weight: 900;
+  padding: 10px 40px;
+  }
+
+  .barra-invisivelc1 {
+    margin-bottom: -70px; /* altura desejada */
+  }
+  
+  .Flex3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+
+  #imgEdu img {
+    margin-right: 80vh;
+  }
+  .banner1 {
+    height: 65vh;
+  }
+
+  #Tit {
+    top: 50px;
+  }
+  .Flex3 {
+    margin-top: 55vh;
+  }
+  #destaqueCard .Botao {
+    left: 68vh;
+    bottom: 32vh;
+    font-size: 0.8em;
+  }
+
+  .Flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70vh;
+  }
+
+  .Texto {
+    font-size: 18px;
+    width: 75%;
+  }
+  .Texto2 {
+    margin-top: 70vh;
+  }
+
+  .Cardctd {
+    display: flex;
+    width: 338px;
+    height: 180px;
+  }
+  .Cardctd2 {
+    display: flex;
+    width: 338px;
+    height: 180px;
+  }
+  .Cardctd3 {
+    display: flex;
+    width: 338px;
+    height: 180px;
+  }
+  .Flex5 {
+    margin-top: 60vh;
+    margin-right: 9vh;
+    font-size: 1em;
+  }
+  #conteudo .Botao41 {
+    position: relative;
+    bottom: 15px;
+    z-index: 1;
+    font-size: 0.8em;
+    padding: 10px 40px;
+  }
+  #conteudo .Botao42 {
+    position: relative;
+    bottom: 30px;
+    z-index: 1;
+    font-size: 0.8em;
+    padding: 10px 40px;
+  }
+  #conteudo .Botao43 {
+    position: relative;
+    bottom: 15px;
+    z-index: 1;
+    font-size: 0.8em;
+    padding: 10px 40px;
+  }
+  #conteudo .Botao44 {
+    position: relative;
+    bottom: 15px;
+    z-index: 1;
+    font-size: 0.8em;
+    padding: 10px 40px;
+  }
+  #destaqueCard2 {
+    position: relative;
+    bottom: 20vh;
+  }
+  .TextoNT img {
+    position: relative;
+    margin-right: 10px;
+    width: 258px;
+    height: 158px;
+  }
+  .TextoNT {
+    display: flex;
+    flex-direction: row;
+  }
+  .TextoNT2 img {
+    position: relative;
+    margin-right: 10px;
+    width: 258px;
+    height: 158px;
+  }
+  .TextoNT2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .pagconteudo {
+    position: relative;
+    margin-top: 65vh;
+  }
+}
+
+/* Tablet portrait >>>>>>>>>>>>>>>>> */
+@media (min-width: 748px) {
+  .Container {
+    max-width: 720px;
+  }
+
+  #slogan {
+    font-size: 4.5em;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+  }
+
+  #textoDestaque {
+    font-size: 2em;
+  }
+
+  #destaque video {
+    height: 85vh;
+    object-fit: cover;
+    position: relative; 
+  }
+
+  .Banner {
+    bottom: 230px;
+  }
+
+  #social {
+    margin-right: 0vh;
+  }
+
+  #copyright {
+    margin-left: 0vh;
+  }
+  
+  nav ul {
+    margin-top: -6vh;
+  }
+  #destaqueIntro {
+    margin-top: -12vh;
+    left: 0vh;
+  }
+  .Pecas {
+    height: 100vh;
+  }
+  .Card {
+    width: 338px;
+    height: 520px;
+  }
+  .Card img {
+    width: 338px;
+  }
+
+  #conteudo h2 {
+    font-size: 2em;
+  }
+
+  #conteudo p {
+    font-size: 1em;
+  }
+
+  #conteudo .Botao {
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 10px 40px;
+  }
+  .barra-invisivelc1 {
+    margin-bottom: 0px; /* altura desejada */
+  }
+  .Flex3 {
+    display: flex;
+    align-items: center;
+  }
+
+  #imgEdu img {
+    margin-right: 0vh;
+  }
+  .banner1 {
+    height: 25vh;
+  }
+
+  #Tit {
+    top: 65px;
+  }
+  .Flex3 {
+    margin-top: 22vh;
+  }
+  #conteudo .Botao4 {
+    font-size: 1.3em;
+    font-weight: 900;
+    padding: 10px 100px;
+  }
+  #conteudo .Botao41 {
+    font-size: 1.3em;
+    font-weight: 900;
+    bottom: 0px;
+    padding: 10px 100px;
+  }
+  #conteudo .Botao42 {
+    font-size: 1.3em;
+    font-weight: 900;
+    bottom: 0px;
+    padding: 10px 100px;
+  }
+  #conteudo .Botao43 {
+    font-size: 1.3em;
+    font-weight: 900;
+    bottom: 0px;
+    padding: 10px 100px;
+  }
+  #conteudo .Botao44 {
+    font-size: 1.3em;
+    font-weight: 900;
+    bottom: 0px;
+    padding: 10px 100px;
+  }
+  .Cardsp1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Cardsp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
+  .Cardp1 {
+    right: -145px;
+  }
+  
+  .Cardp2 {
+    left: 195px;
+    bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 345px;
+    top: 530px;
+  }
+  
+  .Cardp3 {
+    right: 25px;
+    bottom: 2.5vh;
+  }
+  
+  .Cardp4 {
+    left: 25px;
+    bottom: 2.5vh;
+  }
+  .Botao3 {
+    top: 26vh;
+  }
+
+  #destaqueCard .Botao {
+    left: 27vh;
+    bottom: 11vh;
+    font-size: 1.3em;
+  }
+  .Flex2 {
+    margin-top: 25vh;
+  }
+  .Texto2 {
+    margin-top: 30vh;
+    text-align: start;
+  }
+  .Flex5 {
+    margin-top: 22vh;
+    margin-right: 5vh;
+  }
+  #destaqueCard2 {
+    position: relative;
+    bottom: 10vh;
+  }
+  .pagconteudo {
+    position: relative;
+    margin-top: 25vh;
+  }
+}
+
+/* Tablet landscape >>>>>>>>>>>>>>>>> */
+@media (min-width: 1024px) {
+  .Container {
+    max-width: 960px;
+  }
+
+  .Banner {
+    bottom: 110px;
+  }
+
+  nav ul {
+    margin-top: -8vh;
+  }
+
+  #destaqueIntro {
+    margin-top: -20vh;
+    left: 0vh;
+  }
+  .Pecas {
+    height: 135vh;
+  }
+  .Card {
+    width: 338px;
+    height: 520px;
+  }
+  .Card img {
+    width: 338px;
+  }
+
+  #conteudo h2 {
+    font-size: 2em;
+  }
+
+  #conteudo p {
+    font-size: 1em;
+  }
+
+  #conteudo .Botao {
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 10px 40px;
+  }
+  .barra-invisivelc1 {
+    margin-bottom: 0px; /* altura desejada */
+  }
+  .Flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+  .banner1 {
+    height: 30vh;
+  }
+  #Tit {
+    top: 50px;
+  }
+  .Flex3 {
+    margin-top: 25vh;
+  }
+
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
+  .Cardp1 {
+    right: -145px;
+  }
+  
+  .Cardp2 {
+    left: 195px;
+    bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 345px;
+    top: 550px;
+  }
+  
+  .Cardp3 {
+    right: 25px;
+    bottom: 2.5vh;
+  }
+  
+  .Cardp4 {
+    left: 25px;
+    bottom: 2.5vh;
+  }
+  .Botao3 {
+    top: 38vh;
+  }
+  #destaqueCard .Botao {
+    left: 53.5vh;
+    bottom: 15vh;
+  }
+  .Flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25vh;
+  }
+  .Flex5 {
+    margin-top: 26vh;
+    margin-right: 2vh;
+  }
+}
+
+/* PCs ou notebooks HD >>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+  #check {
+    display: none;
+  }
+  label {
+    display: none;
+  }
+  nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+  }
+  nav ul li {
+    list-style: none;
+    float: left;
+    border: 0;
+    padding: 20px;
+    text-align: right;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: var(--brancoLayout)
+  }
+
+  .Banner {
+    bottom: 230px;
+  }
+
+  #destaque video {
+    width: 100%;
+    height: 91.5vh;
+    object-fit: cover;
+    position: relative; 
+    margin-top: -9.805vh;
+  }
+  #destaque2 {
+    height: 40vh;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+  }
+  
+  .Cardsp1 {
+    position: relative;
+    margin-left: -1vh;
+  }
+  .Cardp1 {
+    right: 25px;
+  }
+  
+  .Cardp2 {
+    left: 375px;
+    bottom: 0vh;
+  }
+
+  .Cardp5 {
+    right: 335px;
+    top: 0px;
+  }
+  
+  .Cardp3 {
+    right: 25px;
+    bottom: 2.5vh;
+  }
+  
+  .Cardp4 {
+    left: 25px;
+    bottom: 2.5vh;
+  }
+  
+  #Titulo {
+    font-size: 3.5em;
+  }
+
+  #destaqueIntro {
+    margin-top: 0vh;
+    left: 0vh;
+  }
+
+  .Pecas {
+    height: 100vh;
+  }
+  #conteudo {
+    overflow-x: visible;
+    margin-left: -7vh;
+    animation: none;
+  }
+  .Card {
+    width: 338px;
+    height: 520px;
+  }
+  .Card img {
+    width: 338px;
+  }
+
+  #conteudo h2 {
+    font-size: 2em;
+  }
+
+  #conteudo p {
+    font-size: 1em;
+  }
+
+  #conteudo .Botao {
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 10px 40px;
+  }
+  .barra-invisivelc1 {
+    margin-bottom: 0px; /* altura desejada */
+  }
+
+  .Cartaos {
+    margin-top: 0vh;
+  }
+
+  .Flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: start;
+  }
+  .banner1{
+    width: 100%;
+    height: 30vh;
+    background-image: url('./img/pxfuel.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -9.8vh;
+  }
+
+  #Tit {
+    top: 45px;
+  }
+
+  .Botao3 {
+    top: 2vh;
+  }
+  #destaqueCard .Botao {
+    left: 85.35vh;
+  }
+  .Flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25vh;
+  }
+  #Paragrafo {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+  }
+  .Flex4 {
+    display: flex;
+    text-align: start;
+    align-items: start;
+  }
+  .Flex5 {
+    margin-top: 16vh;
+    margin-right: 12vh;
+  } 
+  #destaqueCard2 {
+    position: relative;
+    bottom: 12vh;
+  }
+  .TextoNT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .TextoNT img {
+    width: 500px;
+    height: 338px;
+  }
+  .TextoNT2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .TextoNT2 img {
+    width: 500px;
+    height: 338px;
+  }
+}
+
+/* PCs ou notebooks Tv Full HD + >>>>>>>>>>>>>>>>> */
+@media (min-width: 1400px) {
+  .Container {
+    max-width: 1360px;
+  }
+}
